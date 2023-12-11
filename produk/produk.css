@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(9, 103, 138);
+    
+}
+
+nav{
+    background-color: rgb(48, 155, 216);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid blue;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-weight: bold;
+    padding: 2px 0;
+}
+.product-card {
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    float: left;
+    width: 25.25%;
+    padding: 5px;
+    color: aliceblue;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.product-card p {
+    margin: 0;
+    font-size: 1em;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgb(173, 170, 170);
+}
